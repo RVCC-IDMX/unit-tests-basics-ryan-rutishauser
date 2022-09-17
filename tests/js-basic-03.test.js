@@ -30,6 +30,8 @@ TODO: to the boolean value true.
 
 // * Add your code BELOW here
 
+let isSeptember = true;
+
 // * Don't mess with the test code below here!
 
 test('isSeptember', () => {
@@ -60,6 +62,8 @@ TODO: Do not use the reserved word false.
 
 // * Add your code BELOW here
 
+let isFalsy = 0;
+
 // * Don't mess with the test code below here!
 
 test('isFalsy', () => {
@@ -85,6 +89,8 @@ TODO: Do not use the reserved word true.
 
 // * Add your code BELOW here
 
+let isTruthy = 1;
+
 // * Don't mess with the test code below here!
 
 test('isTruthy', () => {
@@ -107,6 +113,8 @@ TODO: unassigned.
 */
 
 // * Add your code BELOW here
+
+let notAssigned;
 
 // * Don't mess with the test code below here!
 
@@ -133,6 +141,8 @@ TODO: null.
 
 // * Add your code BELOW here
 
+let bloop = null;
+
 // * Don't mess with the test code below here!
 
 test('bloop', () => {
@@ -155,6 +165,8 @@ TODO: the boolean value of !isSeptember.
 
 // * Add your code BELOW here
 
+let notSeptember = !isSeptember;
+
 // * Don't mess with the test code below here!
 
 test('notSeptember', () => {
@@ -176,6 +188,9 @@ TODO: the boolean value of !!user.
 */
 
 // * Add your code BELOW here
+
+let user = '';
+let isLoggedIn = !!user;
 
 // * Don't mess with the test code below here!
 
